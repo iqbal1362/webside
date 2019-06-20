@@ -1,0 +1,67 @@
+*{
+
+	padding: 0px;
+	margin: 0px;
+
+}.main-nav > ul{
+	background-color: #2B598A;
+	list-style-type: none;
+}.main-nav > ul > li{
+	display: inline;
+	font-size: 25px;
+}.main-nav > ul > span{
+
+  float: right;
+  padding-right: 15px;
+
+}.main-nav > ul > li > a{
+	text-decoration: none;
+	padding-left: 25px;
+	padding-right: 25px;
+	color: #EDF1F5;
+	text-align: center;
+}.main-nav > ul > li > a:hover{
+	background-color: #7BCDCA;
+	color: black;
+}.slide{
+	width: 650px;
+	height: 350px;
+	background-color: gray;
+	margin-top: 0px;
+	margin: auto;
+}.content{
+	width: 650px;
+	height: 350px;
+	background-color: white;
+	overflow: hidden;
+	margin: auto;
+}.img{
+   background-image: url("wallpaperSlide.jpg");
+}body{
+
+	background-repeat: no-repeat;
+	background-image: url("wall.jpg");
+	background-size: cover;
+
+}.flt{
+	width: 215px;
+	float: left;
+	padding-left: 5px;
+
+}.header{
+	height: 50px;
+}.header > img{
+	height: 50px;
+	width: 1350px;
+	background-size: cover;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+}.header > span.sp{
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #48E811;
+	font-size: 40px;
+    padding-left: 80px;
+}
